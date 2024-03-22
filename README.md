@@ -29,9 +29,8 @@ The dataset used for this project consists of anonymized patient data collected 
 3. **Model Selection**: Evaluating various machine learning algorithms such as logistic regression, random forest, and gradient boosting to determine the best performing model.
 4. **Model Training**: Training the selected model on the dataset.
 5. **Model Evaluation**: Assessing the model's performance using metrics like accuracy, precision, recall, and F1-score.
-6. **Hyperparameter Tuning**: Optimizing model parameters to improve performance.
-7. **Validation**: Validating the model on unseen data to ensure generalization.
-8. **Deployment**: Deploying the model for real-time heart failure prediction.
+6. **Validation**: Validating the model on unseen data to ensure generalization.
+7. **Deployment**: Deploying the model for real-time heart failure prediction.
 
 ### Results:
 The XGBoost model achieved satisfactory performance with an accuracy of 88% on the validation dataset. The precision for predicting absence of heart failure (0.0) was 89%, and for predicting presence of heart failure (1.0) was 88%. The recall for predicting absence of heart failure (0.0) was 95%, and for predicting presence of heart failure (1.0) was 74%. The F1-score for predicting absence of heart failure (0.0) was 92%, and for predicting presence of heart failure (1.0) was 80%.
